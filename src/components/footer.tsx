@@ -119,6 +119,9 @@ export function Footer() {
               <p className="text-brand-steel text-sm hover:text-brand-gold transition-colors cursor-pointer">
                 Tyre Replacement
               </p>
+              <p className="text-brand-steel text-sm hover:text-brand-gold transition-colors cursor-pointer">
+                Transportation Service
+              </p>
             </div>
           </motion.div>
         </motion.div>

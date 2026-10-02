@@ -34,6 +34,13 @@ const services = [
     image: "/breakdown-recovery-van.jpeg",
   },
   {
+    icon: Truck,
+    title: "Transportation Service",
+    description:
+      "Safe and reliable vehicle transportation to your destination or chosen repair facility.",
+    image: "/breakdown-recovery-truck.jpeg",
+  },
+  {
     icon: MapPin,
     title: "Roadside Assistance",
     description:
