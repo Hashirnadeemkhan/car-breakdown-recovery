@@ -54,7 +54,7 @@ export function ContactSection() {
           <div>
             <p className="font-bold text-brand-paper">Emergency? Call Immediately</p>
             <p className="text-brand-steel text-sm">
-              Available 24/7/365. Don't delay – we're here to help!
+              Available 24/7/365. Don&apos;t delay – we&apos;re here to help!
             </p>
           </div>
         </motion.div>
@@ -71,7 +71,7 @@ export function ContactSection() {
             Need Help Right Now?
           </h2>
           <p className="text-xl text-brand-steel mb-10 max-w-2xl mx-auto">
-            Don't wait. Reach out to our team immediately and we'll get you back on the road as
+            Don&apos;t wait. Reach out to our team immediately and we&apos;ll get you back on the road as
             quickly as possible.
           </p>
 

@@ -108,7 +108,7 @@ export function WhyChooseUsSection() {
 
             <p className="text-xl text-brand-steel mb-10 leading-relaxed">
               When your vehicle breaks down, you need someone you can trust. With years of
-              experience and a commitment to customer satisfaction, we're your reliable partner on
+              experience and a commitment to customer satisfaction, we&apos;re your reliable partner on
               the road.
             </p>
 

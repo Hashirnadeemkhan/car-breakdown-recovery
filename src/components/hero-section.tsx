@@ -85,7 +85,7 @@ export function HeroSection() {
                 Stranded?
                 <br />
                 <span className="bg-gradient-to-r from-brand-blue-light to-brand-gold bg-clip-text text-transparent">
-                  We're Here for You
+                  We&apos;re Here for You
                 </span>
               </motion.h1>
               <motion.p

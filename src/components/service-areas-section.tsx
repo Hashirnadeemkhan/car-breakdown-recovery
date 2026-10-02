@@ -79,7 +79,7 @@ export function ServiceAreasSection() {
           </h2>
           <p className="text-xl text-brand-steel max-w-2xl mx-auto">
             We cover all major areas across Leeds and surrounding regions. Wherever you are,
-            we're ready to help.
+            we&apos;re ready to help.
           </p>
         </motion.div>
 
@@ -91,7 +91,7 @@ export function ServiceAreasSection() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {areas.map((area, index) => (
+          {areas.map((area) => (
             <motion.div
               key={area}
               className="group relative"
@@ -130,7 +130,7 @@ export function ServiceAreasSection() {
           viewport={{ once: true }}
         >
           <h3 className="font-display text-2xl md:text-3xl font-bold text-brand-ink mb-3">
-            Don't See Your Area?
+            Don&apos;t See Your Area?
           </h3>
           <p className="text-brand-steel mb-6 max-w-2xl mx-auto">
             We occasionally cover areas beyond our usual service zone. Contact us directly to
