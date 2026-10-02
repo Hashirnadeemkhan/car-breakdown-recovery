@@ -24,9 +24,8 @@ export function Header() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex items-center gap-2"
           >
-            <div className="w-14 h-14 relative flex-shrink-0">
+            <div className="w-16 h-16 relative flex-shrink-0">
               <Image
                 src="/logo.png"
                 alt="Car Breakdown Recovery Leeds"
@@ -34,12 +33,6 @@ export function Header() {
                 className="object-contain"
                 priority
               />
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="font-display text-sm font-bold text-brand-paper leading-tight">
-                Breakdown Recovery
-              </h1>
-              <p className="text-xs text-brand-steel">24/7 Leeds</p>
             </div>
           </motion.div>
 

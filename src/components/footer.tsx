@@ -40,22 +40,17 @@ export function Footer() {
         >
           {/* Brand Section */}
           <motion.div className="space-y-4" variants={itemVariants}>
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 relative flex-shrink-0">
-                <Image
-                  src="/logo.png"
-                  alt="Car Breakdown Recovery Leeds"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div>
-                <h4 className="font-display font-bold text-brand-paper text-sm">
-                  Recovery Leeds
-                </h4>
-                <p className="text-xs text-brand-steel">24/7 Available</p>
-              </div>
+            <div className="w-14 h-14 relative">
+              <Image
+                src="/logo.png"
+                alt="Car Breakdown Recovery Leeds"
+                fill
+                className="object-contain"
+              />
             </div>
+            <p className="text-brand-steel text-sm">
+              24/7 Professional Breakdown Recovery
+            </p>
             <p className="text-brand-steel text-sm leading-relaxed">
               Professional breakdown recovery and roadside assistance services available around
               the clock.
