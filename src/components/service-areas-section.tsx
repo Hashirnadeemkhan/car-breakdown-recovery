@@ -10,6 +10,7 @@ const areas = [
   "Wakefield",
   "Halifax",
   "Morley",
+  "West Yorkshire",
   "Sheffield",
   "Manchester",
   "Doncaster",
