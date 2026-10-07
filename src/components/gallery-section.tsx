@@ -30,8 +30,8 @@ const galleryImages = [
     category: "Services",
   },
   {
-    src: "/fuel-delivery-service.jpeg",
-    alt: "Fuel Delivery Service",
+    src: "/hero-fuel-delivery.jpeg",
+    alt: "Roadside fuel delivery - technician refuelling a car from a jerry can",
     title: "Fuel Delivery",
     category: "Services",
   },

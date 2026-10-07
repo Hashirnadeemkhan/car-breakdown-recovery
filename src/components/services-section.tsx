@@ -1,10 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Zap, Fuel, Wrench, Truck, MapPin } from "lucide-react";
+import { Zap, Fuel, Wrench, Truck, MapPin, type LucideIcon } from "lucide-react";
 import Image from "next/image";
 
-const services = [
+type Service = {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+  image: string;
+  /** Tailwind object-fit class; defaults to object-contain for portrait photos. */
+  fit?: string;
+};
+
+const services: Service[] = [
   {
     icon: Zap,
     title: "Jump Start",
@@ -17,7 +26,9 @@ const services = [
     title: "Fuel Delivery",
     description:
       "Run out of fuel? We deliver fresh fuel directly to your vehicle location.",
-    image: "/fuel-delivery-service.jpeg",
+    image: "/hero-fuel-delivery.jpeg",
+    // Landscape shot - fills the card edge to edge instead of letterboxing.
+    fit: "object-cover",
   },
   {
     icon: Wrench,
@@ -146,7 +157,7 @@ export function ServicesSection() {
                       src={service.image}
                       alt={service.title}
                       fill
-                      className="object-contain group-hover:scale-105 transition-transform duration-500"
+                      className={`${service.fit ?? "object-contain"} group-hover:scale-105 transition-transform duration-500`}
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-brand-ink via-transparent to-transparent" />

@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Phone, MessageCircle, AlertCircle } from "lucide-react";
+import { Phone, AlertCircle } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/whatsapp-icon";
 import { useState, useEffect } from "react";
 
 export function FloatingCTA() {
@@ -49,12 +50,12 @@ export function FloatingCTA() {
             href="https://wa.me/447886003475"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg transition-all"
+            className="flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#1EBE5D] text-white rounded-full shadow-lg transition-all"
             whileHover={{ scale: 1.15 }}
             whileTap={{ scale: 0.9 }}
             title="Message on WhatsApp"
           >
-            <MessageCircle className="w-6 h-6" />
+            <WhatsAppIcon className="w-7 h-7" />
           </motion.a>
 
           {/* Call Button */}

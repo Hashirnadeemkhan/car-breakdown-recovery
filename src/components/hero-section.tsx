@@ -135,11 +135,11 @@ export function HeroSection() {
 
           {/* Right Content - Professional Image */}
           <motion.div
-            className="relative h-96 lg:h-full min-h-96 flex items-center justify-center"
+            className="relative w-full flex items-center justify-center"
             variants={itemVariants}
           >
             <motion.div
-              className="relative w-full h-full rounded-3xl overflow-hidden shadow-2xl"
+              className="relative w-full aspect-[3/2] rounded-3xl overflow-hidden shadow-2xl"
               animate={{
                 y: [0, -15, 0],
               }}
@@ -161,15 +161,14 @@ export function HeroSection() {
                   ease: "easeInOut",
                 }}
               />
-              <div className="relative w-full h-full flex items-center justify-center p-4">
-                <Image
-                  src="/hero-fuel-delivery.jpeg"
-                  alt="Professional Breakdown Recovery Service"
-                  fill
-                  className="object-contain rounded-3xl"
-                  priority
-                />
-              </div>
+              <Image
+                src="/customer-service.jpeg"
+                alt="Car Breakdown Recovery Leeds flatbed truck transporting a car on the motorway"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover"
+                priority
+              />
             </motion.div>
 
             {/* Floating Stats Cards */}
@@ -185,7 +184,7 @@ export function HeroSection() {
             </motion.div>
 
             <motion.div
-              className="absolute top-20 right-5 bg-brand-night border border-brand-gold/30 rounded-xl p-4 backdrop-blur-sm"
+              className="absolute top-5 right-5 bg-brand-night border border-brand-gold/30 rounded-xl p-4 backdrop-blur-sm"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.7, duration: 0.6 }}
